@@ -1,0 +1,131 @@
+/*Font size*/
+.f-10 {
+    font-size: 10px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+/*Text Color*/
+.text-black {
+    color: #212121;
+}
+
+.text-grey {
+    color: #666666;
+}
+
+.text-grey-deep {
+    color: #333333;
+}
+
+.text-yellow {
+    color: #FFCF54;
+}
+
+.text-red {
+    color: #FF4141;
+}
+
+.text-green {
+    color: #5BBD65;
+}
+
+.text-white-new{
+    color: white;
+}
+
+/*Background Color*/
+.background-transparent {
+    background: transparent;
+}
+
+.background-green {
+    background: #5BBD65;
+}
+
+.background-green-deep {
+    background: #4ED35C;
+}
+
+.background-green-light {
+    background: #4ED35C;
+}
+
+.background-green-low {
+    background: rgba(78, 211, 92, 0.2);
+}
+
+.background-red {
+    background: #FF4141;
+}
+
+.background-red-light {
+    background: rgba(255, 65, 65, 0.2);
+}
+
+.background-black {
+    background: #101010;
+}
+
+.background-black-deep {
+    background: #111111;
+}
+
+.background-black-light {
+    background: #212121;
+}
+
+.background-yellow {
+    background: #FFCF54;
+}
+
+.background-gradient-yellow-black {
+    background: linear-gradient(156.94deg, #FFE6A8 -62.21%, rgba(92, 92, 92, 0) 112.96%);
+}
+
+.background-grey {
+    background: #3F3F3F;
+}
+
+.background-grey-light {
+    background: #1F1F1F;
+}
+
+/*Border*/
+.border-1-new {
+    border: 2px solid #212121;
+}
+
+.border-2-new {
+    border: 1px solid #FFCF54;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.text-right{
+    text-align: right;
+}
