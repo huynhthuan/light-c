@@ -1266,7 +1266,33 @@ a:hover {
     left: unset;
 }
 
-.candle-box-empty{
+.candle-box-empty {
     height: 400px;
     margin-bottom: 10px;
+}
+
+.trade-order-tab .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trade-order-tab .nav-item {
+    width: calc(50% - 3px);
+    text-align: center;
+    background: #212121;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.trade-order-tab .nav-link{
+    color: white;
+}
+
+.nav-buy.nav-link.active{
+    background: #4ED35C;
+}
+
+.nav-sell.nav-link.active{
+    background: #FF4141;
 }
