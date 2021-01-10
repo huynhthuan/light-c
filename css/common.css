@@ -48,7 +48,15 @@
     color: #FF4141;
 }
 
+.text-red-light{
+    color:  rgba(255, 65, 65, 0.2);;
+}
+
 .text-green {
+    color: #5BBD65;
+}
+
+.text-green-light {
     color: #5BBD65;
 }
 
@@ -63,10 +71,6 @@
 
 .background-green {
     background: #5BBD65;
-}
-
-.background-green-deep {
-    background: #4ED35C;
 }
 
 .background-green-light {
