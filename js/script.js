@@ -32,17 +32,20 @@ $(document).ready(function () {
         self.css("width", bgPercent + '%');
     });
 
-    $('#trade-main-slide').slider({
-        max: 100,
-        min: 25,
-        step: 25
-    });
+    let tradeSlide = $('#trade-main-slide');
+    if (tradeSlide.length) {
+        tradeSlide.slider({
+            max: 100,
+            min: 25,
+            step: 25
+        });
+    }
 
     let tradeSlideHandle = $('.trade-panel-slider .ui-slider-handle');
 
-    $( "#trade-main-slide" ).on( "slidechange", function( event, ui ) {
-        if(ui.value === 100){
+    $("#trade-main-slide").on("slidechange", function (event, ui) {
+        if (ui.value === 100) {
             tradeSlideHandle.css('left', 'calc(100% - 10px)')
         }
-    } );
+    });
 });
