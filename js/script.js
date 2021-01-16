@@ -5,6 +5,18 @@ $(document).ready(function () {
         slidesToShow: 3,
     });
 
+    $('.slide-home').slick({
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+    });
+
+    $('.slide-title').slick({
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+    });
+
     $('.balance-slide').slick({
         dots: false,
         arrows: false,

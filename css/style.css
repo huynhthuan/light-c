@@ -10,7 +10,6 @@ html, body {
 }
 
 body {
-    background: whitesmoke;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -37,9 +36,10 @@ a:hover {
 .app {
     position: relative;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
-    background-image: url("../img/res/background-main.png");
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/res/background-main.png");
     height: 100%;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 
 .app-menu-bar {
     height: 60px;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -202,15 +202,10 @@ a:hover {
 .home-box {
     margin-top: 18px;
     margin-bottom: 25px;
-    background-image: url("../img/res/background-box.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-    min-height: 132px;
+}
+
+.slide-img img {
+    width: 100%;
 }
 
 .home-box-title {
@@ -279,12 +274,16 @@ a:hover {
     margin-right: -5px;
 }
 
-.home-box-notice {
+.slide-title-content {
     height: 45px;
     line-height: 45px;
     padding: 0 12px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.home-box-notice {
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -1285,14 +1284,14 @@ a:hover {
     font-size: 14px;
 }
 
-.trade-order-tab .nav-link{
+.trade-order-tab .nav-link {
     color: white;
 }
 
-.nav-buy.nav-link.active{
+.nav-buy.nav-link.active {
     background: #4ED35C;
 }
 
-.nav-sell.nav-link.active{
+.nav-sell.nav-link.active {
     background: #FF4141;
 }
